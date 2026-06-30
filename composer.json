@@ -1,0 +1,19 @@
+{
+    "name": "lotse/sonde",
+    "description": "Lotse Sonde — adversarialer Regressions-Wächter: führt benannte Angriffsklassen (Sonden) gegen die echten Schutzklassen und meldet Umgehungen. Framework-frei.",
+    "type": "library",
+    "license": "EUPL-1.2",
+    "keywords": ["lotse", "sonde", "adversarial", "regression", "security-assurance"],
+    "require": {
+        "php": ">=8.4",
+        "lotse/rigg": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lotse\\Sonde\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
